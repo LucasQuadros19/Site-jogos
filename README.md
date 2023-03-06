@@ -22,7 +22,7 @@
 
 Este site foi feito em Html, Css e JavaScript
 
-utilizamos a api freetogame
+Utilizamos a api freetogame
 
 O site é separado em tópicos de tipo de jogos(Ex: Fps, Rpg...) e plataforma(Pc e navegador) aparecerão apenas os jogos dentro do filtro que o usuário escolher, mostrara os jogos mas jogados informados pela api e o primeiro da lista estará no banner
 
