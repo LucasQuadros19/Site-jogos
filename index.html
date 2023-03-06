@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <figure id="Logo">
+      <img src="./img/titolo-removebg-preview.png" alt=""/ id="Logo2">
+  </figure>
+    <div class="tudo">
+      <nav>
+        <ul id="Ulnav">
+          <li class="navlink" ><a href="#" onclick="plataforma('PC');mostrarAtivo_plat(this);">PC</a></li>
+          <li class="navlink" ><a href="#" onclick="plataforma('Browser');mostrarAtivo_plat(this);">Browser</a></li>
+          <li class="navlink"><a href="#" onclick="plataforma('ALL');mostrarAtivo_plat(this);">ALL</a></li>
+          <li class="navlink"><a id="favorites-link" onclick="mostrarAtivo_plat(this);" >Favoritos</a></li>
+        </ul>
+        
+      </nav> 
+      <aside>
+        
+        <section class="opcs2">
+          <div id= "fotos" class="fotos">
+           
+            <img class="img"src="./img/Home.png"alt=""/>
+            <img class="img"src="./img/moba.png"alt=""/>
+            <img class="img"src="./img/Survival.png"alt=""/>
+            <img class="img"src="./img/Fighting.png"alt=""/>
+            <img class="img"src="./img/Shooting.png"alt=""/>
+            <img class="img"src="./img/Fantasy.png"alt=""/>
+            <img class="img"src="./img/Card game.png"alt=""/>
+            <img class="img"src="./img/Strategy.png"alt=""/>
+            <img class="img"src="./img/Sports.png"alt=""/>
+
+            <ul id="lista_menu">
+              <li class="textopc"><a href="#" onclick="filtrar('Home');mostrarAtivo(this);">Home</a></li>
+              <li class="textopc"><a href="#" onclick="filtrar('Moba');mostrarAtivo(this);">MOBA</a></li>
+              <li class="textopc"><a href="#" onclick="filtrar('Survival');mostrarAtivo(this);">Survival</a></li>
+              <li class="textopc"><a href="#" onclick="filtrar('Fighting');mostrarAtivo(this);">Fighting</a></li>
+              <li class="textopc"><a href="#" onclick="filtrar('Shooting');mostrarAtivo(this);">Shooting</a></li>
+              <li class="textopc"><a href="#" onclick="filtrar('Fantasy');mostrarAtivo(this);">Fantasy</a></li>
+              <li class="textopc"><a href="#" onclick="filtrar('Card game');mostrarAtivo(this);">Card Game</a></li>
+              <li class="textopc"><a href="#" onclick="filtrar('Strategy');mostrarAtivo(this);">Strategy</a></li>
+              <li class="textopc"><a href="#" onclick="filtrar('Sports');mostrarAtivo(this);">Sports</a></li>
+           </ul>
+        </div>
+      </aside>
+      <main>
+        <div id="bannerjs">
+        </div>
+        
+
+        <div>
+          <h1 class="title-home">Jogo de destaque</h1>
+        </div>
+        <div id="dive"></div>
+      </main>
+    </div>
+    <script src="./index.js"></script>
+
+  </body>
+</html>

@@ -1,0 +1,320 @@
+body {
+  background-color: #2e000c;
+  color: white;
+
+}
+
+#botao {
+  width: 339px;
+  height: 70px;
+  left: 1016px;
+  top: 1351px;
+  color: white;
+  background: #600117;
+  border-radius: 12px;
+  cursor: pointer;
+}
+#filtros {
+  position: relative;
+  display: inline;
+  width: 70px;
+  height: 20px;
+}
+
+body {
+  background-color: #2e000c;
+}
+.tudo {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 2vw;
+}
+nav {
+  border-radius: 1vw;
+  position: absolute;
+  display: flex;
+  justify-content: flex-end;
+  align-content: center;
+  width: 70%;
+  height: 7.5%;
+  left: 25%;
+  background-color: #660920;
+}
+
+.navlink {
+  color: aliceblue;
+  font-size: 140%;
+  border: 0;
+  cursor: pointer;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  width: 11vw;
+}
+
+.pesquisa {
+  border: 0;
+  border-radius: 0.5vw;
+  background-color: #54081b;
+  color: #ffffff;
+
+  width: 30%;
+  height: 40%;
+  margin-top: 1.7%;
+
+  margin-right: 1%;
+}
+.pesquisa::placeholder {
+  border-color: black;
+  padding-left: 3%;
+  color: rgb(255, 255, 255);
+}
+aside {
+  position: fixed;
+  width: 10vw;
+  margin-top: 2vw;
+}
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  padding-left: 20%;
+  padding-top: 5%;
+  width: 80%;
+}
+
+.imgbanner2 {
+  height: 30%;
+  width: 30%;
+  border-radius: 4vh 0px 0vh 4vh;
+  
+}
+
+.destaque-baner {
+  width: 27.7%;
+  background-color: #660920;
+  height: 100%;
+  float: right;
+  border-radius: 0vh 4vh 4vh 0vh;
+}
+
+.texto-jogo-baner {
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+.gif {
+  border-radius: 0px 3.3vh 0px 0px;
+  width: 100%;
+  height: 12.3vw;
+}
+.gif2 {
+  margin-top: 2%;
+  border-radius: 0px 0px 3.3vh 0px;
+  width: 100%;
+  height: 12.4vw;
+}
+.imgbanner1 {
+  background-color: #3d3d3d;
+
+  width: 71.7%;
+  border-radius: 3.3vh 0px 0vh 3.3vh;
+  height: 100%;
+}
+.gif-destaque {
+  background-color: #660920;
+  border-radius: 4vh 4vh 4vh 4vh;
+  display: flex;
+  flex-direction: column;
+}
+#bannerjs {
+  border: 0.25vw solid #660920;
+  background-color: #660920;
+  border-radius: 2vw;
+  width: 60vw;
+  height: 25vw;
+  box-shadow: 2px 2px 10px black;
+}
+
+h1 {
+  color: aliceblue;
+  padding-top: 5%;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin-right: 5vh;
+}
+.fotos {
+  position: absolute;
+  display: grid;
+  margin-left: 40px;
+}
+
+.img {
+  position: relative;
+  display: grid;
+  padding-bottom: 50px;
+  height: 40px;
+  width: 40px;
+  right: 10%;
+  top: 88%;
+  left: 10%;
+}
+
+.textopc {
+  color: aliceblue;
+  font-size: 160%;
+  border: 0;
+  cursor: pointer;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin-bottom: 25%;
+  width: 11vw;
+}
+
+#lista_menu {
+  position: relative;
+  display: grid;
+  gap: 8px;
+  bottom: 82%;
+  text-decoration: none;
+  color: #ffffff;
+  padding-bottom: 95px;
+  left: 20%;
+  margin-top:50%;
+} 
+
+.title-home {
+  background: #660920;
+  padding: 10px;
+  border-radius: 10px;
+
+}
+
+#favorites-link{
+  cursor: pointer;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#dive {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 50px;
+}
+.vitrine {
+  border-radius: 3%;
+  box-shadow: 2px 2px 10px black;
+  margin-top: 1%;
+  margin-right: 1%;
+  background-color: #660920;
+  max-width: 100%;
+}
+.fotojogo {
+  max-height: 180px;
+  width: 100%;
+  border-radius: 3% 3% 0% 0%;
+}
+
+p {
+  font-size: larger;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.nomedojogo {
+  color: aliceblue;
+}
+
+.like-btn {
+  margin-left: 40px;
+  cursor: pointer;
+  border: none;
+  background-color: #660920;
+}
+
+.like-btn:hover {
+  color: aqua;
+}
+
+#botao {
+  width: 339px;
+  height: 70px;
+  left: 1016px;
+  top: 1351px;
+  color: white;
+  background: #600117;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.aw-menu > li a:hover,
+.aw-menu > li a:focus {
+  background-color: #dfdfdf;
+}
+.aw-menu > li a {
+  background-color: transparent;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+
+  border-radius: 10%;
+}
+
+ul {
+  list-style: none;
+}
+
+#Ulnav {
+  color: white;
+  float: left;
+  display: flex;
+  justify-content: space-around;
+  width: 100vw;
+  align-items: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.card-base-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 20px;
+  
+}
+
+
+.vitrine:hover{
+
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+transition: 500ms;
+}
+
+#Logo{
+  z-index: 1;
+    width: 8%;
+    height: 13%;
+    position: absolute;
+    position: fixed;
+    margin-left: 5%;
+    top: -1%;
+    background-color: #f1f1f1;
+    border-radius: 1vw;
+}
+
+
+#Logo2{
+  width: 80%;
+    height: 100%;
+    margin-left: 5%;
+    z-index: 2;
+    margin-left: 9%;
+
+
+ 
+}
