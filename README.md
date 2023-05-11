@@ -6,7 +6,7 @@
  <h4 align="center"> Monotremados</h4>
  <h6 align="center">
  
-[opamabr Bulla](https://github.com/opamabr)
+[opamabr Bulla](https://github.com/OBullao)
  
 [pablonlr Pablo Lara](https://github.com/pablonlr)
  
