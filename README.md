@@ -17,7 +17,7 @@
 
 #
 
-
+<div align="center">
 <img align="center" alt="image" src="https://user-images.githubusercontent.com/103599939/223184749-cec2e99a-1315-4bfc-941d-9f5be0462b23.png" width="600" height="400">
 
 Este site foi feito em Html, Css e JavaScript
@@ -31,3 +31,6 @@ Caso goste de um jogo pode favoritar ele e na aba favorito aparecera apenas os e
 <img width="600" height="400" alt="image" src="https://user-images.githubusercontent.com/103599939/223185342-346f41c1-30b0-4bc7-9323-ffba1d3f287d.png"> 
 
 Este foi meu primeiro site completo feito 
+
+ 
+ </div>
